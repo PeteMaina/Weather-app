@@ -2,7 +2,7 @@ const error = document.querySelector(".error");
 const offline = document.querySelector(".offline");
 const group = document.querySelectorAll(".group");
 const weekContainer = document.querySelector(".week-container");
-const cityName = "Chelmsford";
+const cityName = "Nairobi";
 
 function populateWeatherData(weather) {
   document.querySelector("#condition").innerHTML = weather.condition;
